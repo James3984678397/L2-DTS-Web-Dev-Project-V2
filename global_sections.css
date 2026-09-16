@@ -1,0 +1,108 @@
+header {
+    background-color: #001326;
+}
+
+.header-top-bar {
+    background-color: #fffc00;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.header-top-bar-link {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+.header-top-bar-link-icon {
+    width: 15px;
+    object-fit: cover;
+}
+.header-top-bar-link:hover .header-top-bar-link-p { text-decoration: underline; }
+
+.header-top-bar-link-p {
+    font-family: 'Inter', 'Roboto', 'Google Sans', arial;
+    font-size: 12px;
+    font-weight: normal;
+    color: #001326;
+    line-height: normal;
+    letter-spacing: normal;
+
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+
+    transition: text-decoration 0.1s;
+}
+.header-top-bar-link-p:hover { text-decoration: underline; }
+
+.header-main {
+    background-color: #001326;
+    
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-image {
+    width: 120px;
+    object-fit: cover;
+}
+
+.header-main-navigation-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    align-items: center;
+}
+
+.header-main-navigation-button {
+    font-family: 'Inter', 'Roboto', 'Google Sans', arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fffc00;
+    line-height: normal;
+    letter-spacing: normal;
+
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+
+    transition: text-decoration 0.1s;
+}
+.header-main-navigation-button:hover { text-decoration: underline; }
+
+.header-main-call-to-action-button {
+    background-color: #fffc00;
+    border: none;
+    border-radius: 2px;
+
+    font-family: 'Inter', 'Roboto', 'Google Sans', arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #001326;
+    line-height: normal;
+    letter-spacing: normal;
+
+    padding: 10px;
+
+    transition: background-color 0.1s;
+}
+.header-main-call-to-action-button:hover { background-color: #bebb01; }
