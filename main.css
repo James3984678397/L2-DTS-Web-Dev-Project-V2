@@ -1,0 +1,47 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Inter', 'Roboto', 'Google Sans', arial;
+    font-weight: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-call-to-action-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    width: 220px;
+}
+
+.main-call-to-action-button {
+    background-color: #fffc00;
+    border: none;
+    border-radius: 2px;
+
+    font-family: 'Inter', 'Roboto', 'Google Sans', arial;
+    font-size: 16px;
+    font-weight: bold;
+    color: #001326;
+    line-height: normal;
+    letter-spacing: normal;
+
+    padding: 10px;
+
+    transition: background-color 0.1s;
+}
+.main-call-to-action-button:hover { background-color: #bebb01; }
+
+.main-call-to-action-button-under-p {
+    font-size: 12px;
+    opacity: 0.8;
+    color: #001326;
+}
