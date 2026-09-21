@@ -1,3 +1,5 @@
+/* HERO SECTION */
+
 .home-hero-section {
     background-image: url("https://wayfarer.travel/wp-content/uploads/2017/12/Auckland-skyline.jpg");
     padding: 0;
@@ -68,3 +70,96 @@
     font-weight: bold;
     font-size: 16px;
 }
+
+/* SERVICES SECTION */
+
+.home-services-section-content-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.home-services-section-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.home-services-section-service-cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-services-section-service-card {
+    background-color: #001326;
+    border: none;
+    border-radius: 2px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 15px;
+    margin: 4px;
+}
+
+.home-services-section-service-card-icon {
+    width: 30px;
+    object-fit: cover;
+    border: none;
+    border-radius: 2px;
+}
+
+.home-services-section-service-card-header {
+    color: #f5f5f1;
+}
+
+.home-services-section-service-card-p {
+    color: #f5f5f1;
+    font-size: 13px;
+}
+
+/* WHY US SECTION */
+
+.home-why-us-section
+.home-why-us-section-two-column-layout-div
+.home-why-us-section-content-container
+.home-why-us-section-text-container
+.home-why-us-section-benefit-bullet-container
+.benefit-bullet-container
+.benefit-bullet-tick-icon
+.benefit-bullet-text
+.membership-badge-image
+.benefit-bullet-rating-container
+.benefit-bullet-rating-logo
+.benefit-bullet-star-rating-graphic
+.benefit-bullet-star-rating-text
+.home-why-us-section-why-us-cards-container
+.home-why-us-section-why-us-card
+.why-us-card-icon-and-header-container
+.why-us-card-icon
+.why-us-card-header
+.why-us-card-text
+
+/* SERVICE AREA SECTION */
+
+.home-service-area-section
+.home-service-area-section-content-container
+.home-service-area-section-text-container
+.home-service-area-section-maps-image
+
+/* CONTACT SECTION */
+
+.home-contact-section
+.home-contact-section-two-column-layout-div
+.home-contact-section-left-image-container
+.home-contact-section-left-image
+.home-contact-section-content-container
+.home-contact-section-text-container
+.home-contact-section-p-text-call-link-text
+.home-contact-section-contact-form
+.form-field-container
+.form-field-title
+.form-field
+.home-contact-section-form-submit-button
